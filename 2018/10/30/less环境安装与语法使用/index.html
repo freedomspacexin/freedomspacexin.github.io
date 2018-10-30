@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Less一、环境安装1、安装nodejs 在部分win8系统当中无法安装（解决办法的是：以管理员权限运行cmd然后再按写命令切换到安装包目录，直接命令执行）  进入cmd命令行检测是否安装完成   node  –v  查看版本， 然后检测 npm是否自带  npm  –v 查看版本 2、安装Less2.1.在线安装进入cmd命令行  运行  npm install –g less  (部分电脑要">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2018/10/30/less环境安装与语法使用/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Less一、环境安装1、安装nodejs 在部分win8系统当中无法安装（解决办法的是：以管理员权限运行cmd然后再按写命令切换到安装包目录，直接命令执行）  进入cmd命令行检测是否安装完成   node  –v  查看版本， 然后检测 npm是否自带  npm  –v 查看版本 2、安装Less2.1.在线安装进入cmd命令行  运行  npm install –g less  (部分电脑要">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-10-20T06:57:10.619Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="Less一、环境安装1、安装nodejs 在部分win8系统当中无法安装（解决办法的是：以管理员权限运行cmd然后再按写命令切换到安装包目录，直接命令执行）  进入cmd命令行检测是否安装完成   node  –v  查看版本， 然后检测 npm是否自带  npm  –v 查看版本 2、安装Less2.1.在线安装进入cmd命令行  运行  npm install –g less  (部分电脑要">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-less环境安装与语法使用" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/30/less环境安装与语法使用/" class="article-date">
+  <time datetime="2018-10-30T02:11:08.657Z" itemprop="datePublished">2018-10-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Less"><a href="#Less" class="headerlink" title="Less"></a>Less</h1><h2 id="一、环境安装"><a href="#一、环境安装" class="headerlink" title="一、环境安装"></a>一、环境安装</h2><h3 id="1、安装nodejs"><a href="#1、安装nodejs" class="headerlink" title="1、安装nodejs"></a>1、安装nodejs</h3><blockquote>
+<p>在部分win8系统当中无法安装（解决办法的是：以管理员权限运行cmd然后再按写命令切换到安装包目录，直接命令执行）</p>
+</blockquote>
+<p>进入cmd命令行检测是否安装完成   node  –v  查看版本， 然后检测 npm是否自带  npm  –v 查看版本</p>
+<h3 id="2、安装Less"><a href="#2、安装Less" class="headerlink" title="2、安装Less"></a>2、安装Less</h3><h4 id="2-1-在线安装"><a href="#2-1-在线安装" class="headerlink" title="2.1.在线安装"></a>2.1.在线安装</h4><p>进入cmd命令行  运行  npm install –g less  (部分电脑要 sudo 管理权限)</p>
+<p>lessc –v  查看版本    是否安装成功</p>
+<h4 id="2-2-离线安装"><a href="#2-2-离线安装" class="headerlink" title="2.2.离线安装"></a>2.2.离线安装</h4><p>进入C:\Users\xin\AppData\Roaming\npm目录</p>
+<p>把已准备好的npm.zip解压到当前目录</p>
+<p>lessc –v  查看版本    是否安装成功</p>
+<h4 id="2-3-Webstorm配置"><a href="#2-3-Webstorm配置" class="headerlink" title="2.3.Webstorm配置"></a>2.3.Webstorm配置</h4><p>方法一、新建一个以.less为后缀的文件，打文件，文件上面有提示是否需要注册一个less实时转css的监听器，不需配置，点击ok就行</p>
+<p>方法二、File–&gt;Settings…–&gt;Tools–&gt; +  –&gt; Less –&gt;ok</p>
+<h2 id="二、学习Less"><a href="#二、学习Less" class="headerlink" title="二、学习Less"></a>二、学习Less</h2><blockquote>
+<p><a href="http://lesscss.org/" target="_blank" rel="noopener">官网</a><br><a href="http://lesscss.cn/" target="_blank" rel="noopener">中文网</a>  <a href="http://www.1024i.com/demo/less/" target="_blank" rel="noopener">http://www.1024i.com/demo/less/</a></p>
+</blockquote>
+<p>自动编译： Webstrom 插件配置</p>
+<p>手动编译：命令行：lessc less.less less.css   —–&gt;    less文件成css</p>
+<h3 id="1、LESS-简述"><a href="#1、LESS-简述" class="headerlink" title="1、LESS 简述"></a>1、LESS 简述</h3><blockquote>
+<p>CSS（层叠样式表）是一门历史悠久的标记性语言，同 HTML 一道，被广泛应用于万维网（World Wide Web）中。HTML 主要负责文档结构的定义，CSS 负责文档表现形式或样式的定义。</p>
+<p>作为一门标记性语言，CSS 的语法相对简单，对使用者的要求较低，但同时也带来一些问题：CSS 需要书写大量看似没有逻辑的代码，不方便维护及扩展，不利于复用，尤其对于非前端开发工程师来讲，往往会因为缺少CSS 编写经验而很难写出组织良好且易于维护的CSS 代码，造成这些困难的很大原因源于CSS是一门非程序式语言，没有变量、函数、SCOPE（作用域）等概念。LESS 为Web开发者带来了福音，它在 CSS 的语法基础之上，引入了变量，Mixin（混入），运算以及函数等功能，大大简化了CSS 的编写，并且降低了CSS 的维护成本，就像它的名称所说的那样，LESS 可以让我们用更少的代码做更多的事情。</p>
+<p>总结：因css看似没有逻辑的代码，不方便维护及扩展，不利于复用，因此Less出现了（有变量、函数、作用域等概念）</p>
+</blockquote>
+<h3 id="2、LESS-原理及使用方式"><a href="#2、LESS-原理及使用方式" class="headerlink" title="2、LESS 原理及使用方式"></a>2、LESS 原理及使用方式</h3><blockquote>
+<p>本质上，LESS 包含一套自定义的语法及一个解析器，用户根据这些语法定义自己的样式规则，这些规则最终会通过解析器，编译生成对应的 CSS 文件。LESS 并没有裁剪 CSS 原有的特性，更不是用来取代 CSS 的，而是在现有 CSS 语法的基础上，为 CSS 加入程序式语言的特性。</p>
+</blockquote>
+<h3 id="3、LESS-语法"><a href="#3、LESS-语法" class="headerlink" title="3、LESS 语法"></a>3、LESS 语法</h3><blockquote>
+<p>在编写less之前，一定要设置字符集：如 @charset  “UTF-8”;</p>
+</blockquote>
+<ul>
+<li>变量</li>
+<li>Mixin混入</li>
+<li>嵌套</li>
+<li>import</li>
+<li>函数（内置函数、运算）</li>
+<li>注释</li>
+</ul>
+<h4 id="3-1-变量"><a href="#3-1-变量" class="headerlink" title="3.1. 变量"></a>3.1. 变量</h4><blockquote>
+<p>LESS 允许开发者自定义变量，变量可以在全局样式中使用，变量使得样式修改起来更加简单。</p>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//变量</span></span><br><span class="line"><span class="comment">//必须@前缀，：是等于的以上，必须分号结束；</span></span><br><span class="line"><span class="comment">//不能以数组开头，不能包含特殊字符，区分大小写</span></span><br><span class="line"><span class="variable">@mainColor:</span><span class="number">#E93223</span>;</span><br><span class="line"><span class="selector-tag">body</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="variable">@mainColor</span>;</span><br><span class="line">｝</span><br><span class="line"></span><br><span class="line"><span class="comment">//变量用于字符拼接使用方法</span></span><br><span class="line"><span class="variable">@className:</span>box;</span><br><span class="line"><span class="selector-class">.@&#123;className&#125;</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="variable">@mainColor</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="3-2-Mixin混入"><a href="#3-2-Mixin混入" class="headerlink" title="3.2. Mixin混入"></a>3.2. Mixin混入</h4><blockquote>
+<p>很多动态语言都支持 Mixin（混入）特性，它是多重继承的一种实现，在 LESS 中，混入是指在一个class中引入另外一个已经定义的 class，就像在当前class中增加一个属性一样</p>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*-----------------mixin 混入----------------*/</span></span><br><span class="line"><span class="comment">/*----------------类混入-----------------*/</span></span><br><span class="line"><span class="selector-class">.red</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="variable">@mainColor</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.border</span>&#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.mixin-class</span>&#123;</span><br><span class="line">  <span class="selector-class">.red</span>();</span><br><span class="line">  <span class="selector-class">.border</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*----------------方法混入---------------------*/</span></span><br><span class="line"><span class="selector-class">.redBorder</span>()&#123;<span class="comment">//没有解析到css</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="variable">@mainColor</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.mixin-fuc</span>&#123;</span><br><span class="line">  <span class="selector-class">.redBorder</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*类混入与方法混入的调用都是一样的：. + 方法名或类名+();</span></span><br><span class="line"><span class="comment">区别：</span></span><br><span class="line"><span class="comment">类会解析到css文件</span></span><br><span class="line"><span class="comment">方法不会解析到css文件</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/*------------函数参数与css3性前缀------------------------------------*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/*定义函数时：</span></span><br><span class="line"><span class="comment">1.定义了参数（没有默认值），调用的时候必须传参</span></span><br><span class="line"><span class="comment">2.怎么定义默认值 和定义变量值是一样的</span></span><br><span class="line"><span class="comment">3.定义了参数（有默认值），可传可不传</span></span><br><span class="line"><span class="comment">4.当为css3的编写前缀时体现更加方便</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="selector-class">.w50</span>()&#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">50%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.float_func</span>(<span class="variable">@direction</span>:left)&#123;<span class="comment">//默认为左浮动</span></span><br><span class="line">  <span class="attribute">float</span>: <span class="variable">@direction</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.borderRadius</span>(<span class="variable">@width</span>:<span class="number">100px</span>)&#123;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="variable">@width</span>;</span><br><span class="line">  <span class="attribute">-webkit-border-radius</span>:<span class="variable">@width</span>;</span><br><span class="line">  <span class="attribute">-moz-border-radius</span>:<span class="variable">@width</span>;</span><br><span class="line">  <span class="attribute">-o-border-radius</span>:<span class="variable">@width</span>;</span><br><span class="line">  <span class="attribute">-ms-border-radius</span>:<span class="variable">@width</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.w50-f_left</span>&#123;</span><br><span class="line">  <span class="selector-class">.w50</span>();</span><br><span class="line">  <span class="selector-class">.float_func</span>();</span><br><span class="line">  <span class="selector-class">.borderRadius</span>(<span class="number">20px</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.w50-f_right</span>&#123;</span><br><span class="line">  <span class="selector-class">.w50</span>();</span><br><span class="line">  <span class="selector-class">.float_func</span>(right);</span><br><span class="line">  <span class="selector-class">.borderRadius</span>(<span class="number">20px</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="3-3-嵌套"><a href="#3-3-嵌套" class="headerlink" title="3.3. 嵌套"></a>3.3. 嵌套</h4><blockquote>
+<p>书写标准 css 的时候，遇到多层的元素嵌套这种情况时，我们要么采用从外到内的选择器嵌套定义，要么采用给特定元素加 CLASS 或 ID 的方式 </p>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*注意&amp;符号的用法：需要连接的情况用&amp;，否则嵌套都会有一个空格键连接*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/*------------------嵌套------------------*/</span></span><br><span class="line"><span class="comment">/*轮播图  less文件*/</span></span><br><span class="line"><span class="selector-id">#wjs_banner</span>&#123;</span><br><span class="line">  <span class="selector-class">.carousel-inner</span>&#123;</span><br><span class="line">    &gt; <span class="selector-tag">div</span><span class="selector-class">.item</span>&#123;</span><br><span class="line">      <span class="selector-tag">a</span><span class="selector-class">.img_box</span>&#123;</span><br><span class="line">        <span class="attribute">background</span>: url(<span class="string">""</span>) no-repeat center center;</span><br><span class="line">        <span class="attribute">height</span>: <span class="number">410px</span>;</span><br><span class="line">        <span class="comment">/*调用redBorder mixin*/</span></span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="selector-class">.redBorder</span>();</span><br><span class="line">        <span class="comment">/*调用@mainColor 变量*/</span></span><br><span class="line">        <span class="selector-tag">&amp;</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">          <span class="attribute">color</span>: <span class="variable">@mainColor</span>;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-tag">a</span><span class="selector-class">.img_mobile</span>&#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="selector-tag">img</span>&#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">          <span class="attribute">display</span>: block;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*编译后的css文件*/</span></span><br><span class="line"><span class="comment">/*------------------嵌套------------------*/</span></span><br><span class="line"><span class="comment">/*轮播图*/</span></span><br><span class="line"><span class="selector-id">#wjs_banner</span> <span class="selector-class">.carousel-inner</span> &gt; <span class="selector-tag">div</span><span class="selector-class">.item</span> <span class="selector-tag">a</span><span class="selector-class">.img_box</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: url(<span class="string">""</span>) no-repeat center center;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">410px</span>;</span><br><span class="line">  <span class="comment">/*调用redBorder mixin*/</span></span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#E93223</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="comment">/*调用@mainColor 变量*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#wjs_banner</span> <span class="selector-class">.carousel-inner</span> &gt; <span class="selector-tag">div</span><span class="selector-class">.item</span> <span class="selector-tag">a</span><span class="selector-class">.img_box</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#E93223</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#wjs_banner</span> <span class="selector-class">.carousel-inner</span> &gt; <span class="selector-tag">div</span><span class="selector-class">.item</span> <span class="selector-tag">a</span><span class="selector-class">.img_mobile</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#wjs_banner</span> <span class="selector-class">.carousel-inner</span> &gt; <span class="selector-tag">div</span><span class="selector-class">.item</span> <span class="selector-tag">a</span><span class="selector-class">.img_mobile</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="3-4-import导入模块"><a href="#3-4-import导入模块" class="headerlink" title="3.4. import导入模块"></a>3.4. import导入模块</h4><blockquote>
+<p>在构架网页时，模块化能使思路清淅，在less也是可以模块化，想要拼成一个css文件，能过import导入即可</p>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> 如：</span></span><br><span class="line"><span class="comment">1.变量模块（variables.less）</span></span><br><span class="line"><span class="comment">2.topBar.less模块</span></span><br><span class="line"><span class="comment">3.banner.less模块</span></span><br><span class="line"><span class="comment">4.nav.less模块</span></span><br><span class="line"><span class="comment">5.content.less模块</span></span><br><span class="line"><span class="comment">6.flooter.less模块</span></span><br><span class="line"><span class="comment">如果，这些模块需要变量模块的某个值，通过import导入即可调用</span></span><br><span class="line"><span class="comment">如果，index.less需要整合这些模块成编译成为一个index.css，用import导入到index.less</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/*---------------------Import 引入------------------------*/</span></span><br><span class="line"><span class="keyword">@import</span> <span class="string">"variables"</span>;</span><br><span class="line"><span class="selector-class">.f_left</span>&#123;</span><br><span class="line">  <span class="attribute">float</span>: <span class="variable">@right</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="3-5-函数（内置函数、运算）"><a href="#3-5-函数（内置函数、运算）" class="headerlink" title="3.5. 函数（内置函数、运算）"></a>3.5. 函数（内置函数、运算）</h4><blockquote>
+<p> CSS 中充斥着大量的数值型的 value，比如 color、padding、margin 等，这些数值之间在某些情况下是有着一定关系的，那么我们怎样利用 LESS 来组织我们这些数值之间的关系呢？</p>
+<p>Less提供了很多方法，或支持自定义运算</p>
+<p><a href="http://www.1024i.com/demo/less/reference.html" target="_blank" rel="noopener">http://www.1024i.com/demo/less/reference.html</a></p>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*运算和函数  + - * / */</span></span><br><span class="line"><span class="variable">@num:</span><span class="number">5</span>;</span><br><span class="line"><span class="selector-tag">ul</span>&#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>*<span class="variable">@num</span>;</span><br><span class="line">  <span class="selector-tag">li</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>/<span class="variable">@num</span>;</span><br><span class="line">    <span class="attribute">color</span>: red+yellow+blue;</span><br><span class="line">    <span class="attribute">background</span>: gray*<span class="number">0.3</span>;</span><br><span class="line">    <span class="comment">/*内置函数*/</span></span><br><span class="line">    <span class="attribute">border-color</span>: darken(red,<span class="number">20%</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>内置函数：</p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>escape(@string);</td>
+<td>// 通过 URL-encoding 编码字符串</td>
+</tr>
+<tr>
+<td>e(@string);</td>
+<td>// 对字符串转义</td>
+</tr>
+<tr>
+<td>%(@string, values…);</td>
+<td>// 格式化字符串</td>
+</tr>
+<tr>
+<td>unit(@dimension, [@unit: “”]);</td>
+<td>// 移除或替换属性值的单位</td>
+</tr>
+<tr>
+<td>color(@string);</td>
+<td>// 将字符串解析为颜色值</td>
+</tr>
+<tr>
+<td>data-uri([mimetype,] url);</td>
+<td>// * 将资源内嵌到css中，可能回退到url()</td>
+</tr>
+<tr>
+<td>ceil(@number);</td>
+<td>// 向上取整</td>
+</tr>
+<tr>
+<td>floor(@number);</td>
+<td>// 向下取整</td>
+</tr>
+<tr>
+<td>percentage(@number);</td>
+<td>// 将数字转换为百分比，例如 0.5 -&gt; 50%</td>
+</tr>
+<tr>
+<td>round(number, [places: 0]);</td>
+<td>// 四舍五入取整</td>
+</tr>
+<tr>
+<td>sqrt(number);</td>
+<td>// * 计算数字的平方根</td>
+</tr>
+<tr>
+<td>abs(number);</td>
+<td>// * 数字的绝对值</td>
+</tr>
+<tr>
+<td>sin(number);</td>
+<td>// * sin函数</td>
+</tr>
+<tr>
+<td>asin(number);</td>
+<td>// * arcsin函数</td>
+</tr>
+<tr>
+<td>cos(number);</td>
+<td>// * cos函数</td>
+</tr>
+<tr>
+<td>acos(number);</td>
+<td>// * arccos函数</td>
+</tr>
+<tr>
+<td>tan(number);</td>
+<td>// * tan函数</td>
+</tr>
+<tr>
+<td>atan(number);</td>
+<td>// * arctan函数</td>
+</tr>
+<tr>
+<td>pi();</td>
+<td>// * 返回PI</td>
+</tr>
+<tr>
+<td>pow(@base, @exponent);</td>
+<td>// * 返回@base的@exponent次方</td>
+</tr>
+<tr>
+<td>mod(number, number);</td>
+<td>// * 第一个参数对第二个参数取余</td>
+</tr>
+<tr>
+<td>convert(number, units);</td>
+<td>// * 在数字之间转换</td>
+</tr>
+<tr>
+<td>unit(number, units);</td>
+<td>// * 不转换的情况下替换数字的单位</td>
+</tr>
+<tr>
+<td>color(string);</td>
+<td>// 将字符串或者转义后的值转换成颜色</td>
+</tr>
+<tr>
+<td>rgb(@r, @g, @b);</td>
+<td>// 转换为颜色值</td>
+</tr>
+<tr>
+<td>rgba(@r, @g, @b, @a);</td>
+<td>// 转换为颜色值</td>
+</tr>
+<tr>
+<td>argb(@color);</td>
+<td>// 创建 #AARRGGBB 格式的颜色值</td>
+</tr>
+<tr>
+<td>hsl(@hue, @saturation, @lightness);</td>
+<td>// 创建颜色值</td>
+</tr>
+<tr>
+<td>hsla(@hue, @saturation, @lightness, @alpha);</td>
+<td>// 创建颜色值</td>
+</tr>
+<tr>
+<td>hsv(@hue, @saturation, @value);</td>
+<td>// 创建颜色值</td>
+</tr>
+<tr>
+<td>hsva(@hue, @saturation, @value, @alpha);</td>
+<td>// 创建颜色值</td>
+</tr>
+<tr>
+<td>hue(@color);</td>
+<td>// 从颜色值中提取 hue 值（色相）</td>
+</tr>
+<tr>
+<td>saturation(@color);</td>
+<td>// 从颜色值中提取 saturation 值（饱和度）</td>
+</tr>
+<tr>
+<td>lightness(@color);</td>
+<td>// 从颜色值中提取 ‘lightness’ 值（亮度）</td>
+</tr>
+<tr>
+<td>hsvhue(@color);</td>
+<td>// * 从颜色中提取 hue 值，以HSV色彩空间表示（色相）</td>
+</tr>
+<tr>
+<td>hsvsaturation(@color);</td>
+<td>// * 从颜色中提取 saturation 值，以HSV色彩空间表示（饱和度）</td>
+</tr>
+<tr>
+<td>hsvvalue(@color);</td>
+<td>// * 从颜色中提取 value 值，以HSV色彩空间表示（色调）</td>
+</tr>
+<tr>
+<td>red(@color);</td>
+<td>// 从颜色值中提取 ‘red’ 值（红色）</td>
+</tr>
+<tr>
+<td>green(@color);</td>
+<td>// 从颜色值中提取 ‘green’ 值（绿色）</td>
+</tr>
+<tr>
+<td>blue(@color);</td>
+<td>// 从颜色值中提取 ‘blue’ 值（蓝色）</td>
+</tr>
+<tr>
+<td>alpha(@color);</td>
+<td>// 从颜色值中提取 ‘alpha’ 值（透明度）</td>
+</tr>
+<tr>
+<td>luma(@color);</td>
+<td>// 从颜色值中提取 ‘luma’ 值（亮度的百分比表示法）</td>
+</tr>
+<tr>
+<td>saturate(@color, 10%);</td>
+<td>// 饱和度增加 10%</td>
+</tr>
+<tr>
+<td>desaturate(@color, 10%);</td>
+<td>// 饱和度降低 10%</td>
+</tr>
+<tr>
+<td>lighten(@color, 10%);</td>
+<td>// 亮度增加 10%</td>
+</tr>
+<tr>
+<td>darken(@color, 10%);</td>
+<td>// 亮度降低 10%</td>
+</tr>
+<tr>
+<td>fadein(@color, 10%);</td>
+<td>// 透明度增加 10%</td>
+</tr>
+<tr>
+<td>fadeout(@color, 10%);</td>
+<td>// 透明度降低 10%</td>
+</tr>
+<tr>
+<td>fade(@color, 50%);</td>
+<td>// 设定透明度为 50%</td>
+</tr>
+<tr>
+<td>spin(@color, 10);</td>
+<td>// 色相值增加 10</td>
+</tr>
+<tr>
+<td>mix(@color1, @color2, [@weight: 50%]);</td>
+<td>// 混合两种颜色</td>
+</tr>
+<tr>
+<td>greyscale(@color);</td>
+<td>// 完全移除饱和度，输出灰色</td>
+</tr>
+<tr>
+<td>contrast(@color1, [@darkcolor: black], [@lightcolor: white], [@threshold: 43%]);</td>
+<td>// 如果 @color1 的 luma 值 &gt; 43% 输出 @darkcolor，否则输出 @lightcolor</td>
+</tr>
+<tr>
+<td>multiply(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>screen(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>overlay(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>softlight(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>hardlight(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>difference(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>exclusion(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>average(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>negation(@color1, @color2);</td>
+<td></td>
+</tr>
+<tr>
+<td>iscolor(@colorOrAnything);</td>
+<td>// 判断一个值是否是颜色</td>
+</tr>
+<tr>
+<td>isnumber(@numberOrAnything);</td>
+<td>// 判断一个值是否是数字（可含单位）</td>
+</tr>
+<tr>
+<td>isstring(@stringOrAnything);</td>
+<td>// 判断一个值是否是字符串</td>
+</tr>
+<tr>
+<td>iskeyword(@keywordOrAnything);</td>
+<td>// 判断一个值是否是关键字</td>
+</tr>
+<tr>
+<td>isurl(@urlOrAnything);</td>
+<td>// 判断一个值是否是url</td>
+</tr>
+<tr>
+<td>ispixel(@pixelOrAnything);</td>
+<td>// 判断一个值是否是以px为单位的数值</td>
+</tr>
+<tr>
+<td>ispercentage(@percentageOrAnything);</td>
+<td>// 判断一个值是否是百分数</td>
+</tr>
+<tr>
+<td>isem(@emOrAnything);</td>
+<td>// 判断一个值是否是以em为单位的数值</td>
+</tr>
+<tr>
+<td>isunit(@numberOrAnything, “rem”);</td>
+<td>// * 判断一个值是否是指定单位的数值</td>
+</tr>
+<tr>
+<td>extract(@adapterDeviceList,@index))</td>
+<td>//从@adapterDeviceList获取以序号为索引的值，index从1开始</td>
+</tr>
+<tr>
+<td>length(@adapterDeviceList);</td>
+<td>//获取@adapterDeviceList集合的长度</td>
+</tr>
+</tbody>
+</table>
+<h4 id="3-6-注释"><a href="#3-6-注释" class="headerlink" title="3.6. 注释"></a>3.6. 注释</h4><blockquote>
+<p>less文档有两种注释：</p>
+<p>1、/**/   :    能解析到css文件中</p>
+<p>2、//       :    不能解析到css文件中</p>
+</blockquote>
+<h3 id="4、LESS编写直接响应在浏览器"><a href="#4、LESS编写直接响应在浏览器" class="headerlink" title="4、LESS编写直接响应在浏览器"></a>4、LESS编写直接响应在浏览器</h3><blockquote>
+<p>1.less无法在浏览器端直接使用、浏览器不识别，必须解析成css代码，可通过less解析插件（javascript)</p>
+<p>2.需引入插件less.js并在导入该文件时加上 type=”text/less” </p>
+<p>3.其原理是通过ajax去请求文件解析后在返还给浏览器，所以必须以http形式打开网页预览</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/less"</span> <span class="attr">href</span>=<span class="string">"test.less"</span>&gt;</span><span class="comment">&lt;!--test.less需要被解析的文件--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"../lib/less/less.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="5、通过LESS自定义Bootstrap文件"><a href="#5、通过LESS自定义Bootstrap文件" class="headerlink" title="5、通过LESS自定义Bootstrap文件"></a>5、通过LESS自定义Bootstrap文件</h3><h4 id="5-1-离线定制"><a href="#5-1-离线定制" class="headerlink" title="5.1.离线定制"></a>5.1.离线定制</h4><blockquote>
+<p>修改less文件，再通过less指令生成新的bootstrap文件（css文件）</p>
+<p>编译其总文件入口，即bootstrap.less</p>
+<p>lessc bootstrap.less bootstrap.css</p>
+</blockquote>
+<h4 id="5-2-在线定制"><a href="#5-2-在线定制" class="headerlink" title="5.2.在线定制"></a>5.2.在线定制</h4><blockquote>
+<p>网站有一个定制选项，通过界面操作修改相应的属性，在线编译重新下载</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/10/30/less环境安装与语法使用/" data-id="cjnv3zeie0001kwftvi61i991" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2018/10/30/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/10/30/less环境安装与语法使用/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/10/30/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
